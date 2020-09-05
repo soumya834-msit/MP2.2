@@ -32,14 +32,6 @@ pip install metapy pytoml
 Read the [C++ Search Tutorial](https://meta-toolkit.org/search-tutorial.html). Read *Initially setting up the config file and Relevance judgements*.
 Read the [python Search Tutorial](https://github.com/meta-toolkit/metapy/blob/master/tutorials/2-search-and-ir-eval.ipynb)
 
-If you cloned this repo correctly, your assignment directory should contain this:
-- assignment folder
-- Cranfield dataset in MeTA format.
-- Queries one per line, copy it from the cranfield directory.
-- Relevance judgements for the queries, copy it from the cranfield directory.
-- A file containing stopwords that will not be indexed.
-- A config file with paths set to all the above files, including index and ranker settings.
-
 ## Indexing the data
 To index the data using metapy, use the following .
 ```python
@@ -115,8 +107,8 @@ ev.map()
 
 You will now implement a retrieval function called InL2. It is described in [this](http://dl.acm.org/citation.cfm?id=582416) paper: 
 For this assignment, we will only concern ourselves with writing the function and not worry about its derivation. 
-InL2 is formulated as <img src="https://render.githubusercontent.com/render/math?math=Score(Q,D) = \sum_{t\in Q\cap D} c(t,Q)\cdot \frac{tfn}{tfn+c}\cdot\log_2(\frac{N+1}{c(t,C)+0.5})">
-where <img src="https://render.githubusercontent.com/render/math?math=tfn = c(t,D) \cdot \log_2\left(1+\frac{avgdl}{|D|}\right)">
+InL2 is formulated as <img src="https://drive.google.com/file/d/1_Q2CTMe6o2RP9PGf8HPsggai9LVyVmEU/view?usp=sharing">
+where $tfn = c(t,D) \cdot \log_2\left(1+\frac{avgdl}{|D|}\right)$
 
 It uses the following variables:
 
