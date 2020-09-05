@@ -114,10 +114,10 @@ where
 
 It uses the following variables:
 
-- $`Q,D,t`$ : the current query, document, and term
-- $`N`$: the total number of documents in the corpus C
-- $`avgdl`$: the average document length
-- $`c > 0`$: is a parameter
+- Q,D,t : the current query, document, and term
+- N: the total number of documents in the corpus C
+- avgdl: the average document length
+- c > 0: is a parameter
 
 Determine if this function captures the TF, IDF, and document length normalization properties. Where (if anywhere) are they represented in the formula? You don’t need to submit your answers.
 
