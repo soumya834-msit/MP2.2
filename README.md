@@ -32,6 +32,13 @@ pip install metapy pytoml
 Read the [C++ Search Tutorial](https://meta-toolkit.org/search-tutorial.html). Read *Initially setting up the config file and Relevance judgements*.
 Read the [python Search Tutorial](https://github.com/meta-toolkit/metapy/blob/master/tutorials/2-search-and-ir-eval.ipynb)
 
+We have provided the following files:
+- Cranfield dataset in MeTA format.
+- cranfield-queries.txt: Queries one per line
+- cranfield-qrels.txt: Relevance judgements for the queries
+- stopwords.txt: A file containing stopwords that will not be indexed.
+- config.toml: A config file with paths set to all the above files, including index and ranker settings.
+
 ## Indexing the data
 To index the data using metapy, use the following .
 ```python
