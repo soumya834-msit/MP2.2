@@ -154,7 +154,7 @@ class InL2Ranker(metapy.index.RankingFunction):
 
 
 ## Varying InL2’s parameter
-Perform the same parameter analysis with InL2’s $`c`$ parameter. 
+Perform the same parameter analysis with InL2’s <em> c </em> parameter. 
 
 ## Statistical significance testing
 
@@ -178,7 +178,7 @@ t.test(bm25, inl2, paired=T)
 
 You don’t have to use R; you can even write a script to calculate the answer yourself.
 
-In Python, you can use [this function] (https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_rel.html)
+In Python, you can use [this function](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_rel.html)
 
 The output of the significance test will give you a p-value. If the p-value is less than 0.05 (our chosen significance level), then we will say that there is a significant difference between the two average precision lists. That means that there is less than a 5% chance that the difference in the mean of the AP scores is due to random fluctuation.
 
