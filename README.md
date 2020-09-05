@@ -107,7 +107,11 @@ ev.map()
 
 You will now implement a retrieval function called InL2. It is described in [this](http://dl.acm.org/citation.cfm?id=582416) paper: 
 For this assignment, we will only concern ourselves with writing the function and not worry about its derivation. 
-InL2 is formulated as ![image](https://drive.google.com/uc?export=view&id=1_Q2CTMe6o2RP9PGf8HPsggai9LVyVmEU), 
+InL2 is formulated as 
+
+![image](https://drive.google.com/uc?export=view&id=1_Q2CTMe6o2RP9PGf8HPsggai9LVyVmEU), 
+
+
 where
 
 ![image](https://drive.google.com/uc?export=view&id=1gcbywLx0ZEU3eqxlDtLk6o4Yxd788IiK)
