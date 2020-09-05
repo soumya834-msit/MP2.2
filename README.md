@@ -107,7 +107,7 @@ ev.map()
 
 You will now implement a retrieval function called InL2. It is described in [this](http://dl.acm.org/citation.cfm?id=582416) paper: 
 For this assignment, we will only concern ourselves with writing the function and not worry about its derivation. 
-InL2 is formulated as <img src="https://drive.google.com/file/d/1_Q2CTMe6o2RP9PGf8HPsggai9LVyVmEU/view?usp=sharing">
+InL2 is formulated as ![image](https://drive.google.com/uc?export=view&id=1_Q2CTMe6o2RP9PGf8HPsggai9LVyVmEU)
 where $tfn = c(t,D) \cdot \log_2\left(1+\frac{avgdl}{|D|}\right)$
 
 It uses the following variables:
