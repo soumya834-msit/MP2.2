@@ -115,8 +115,8 @@ ev.map()
 
 You will now implement a retrieval function called InL2. It is described in [this](http://dl.acm.org/citation.cfm?id=582416) paper: 
 For this assignment, we will only concern ourselves with writing the function and not worry about its derivation. 
-InL2 is formulated as $`Score(Q,D) = \sum_{t\in Q\cap D} c(t,Q)\cdot \frac{tfn}{tfn+c}\cdot\log_2(\frac{N+1}{c(t,C)+0.5})`$
-where $`tfn = c(t,D) \cdot \log_2\left(1+\frac{avgdl}{|D|}\right)`$
+InL2 is formulated as <img src="https://render.githubusercontent.com/render/math?math=Score(Q,D) = \sum_{t\in Q\cap D} c(t,Q)\cdot \frac{tfn}{tfn+c}\cdot\log_2(\frac{N+1}{c(t,C)+0.5})">
+where <img src="https://render.githubusercontent.com/render/math?math=tfn = c(t,D) \cdot \log_2\left(1+\frac{avgdl}{|D|}\right)">
 
 It uses the following variables:
 
