@@ -118,10 +118,14 @@ InL2 is formulated as
 
 ![image](https://drive.google.com/uc?export=view&id=1_Q2CTMe6o2RP9PGf8HPsggai9LVyVmEU) 
 
+Please use this link if the image does not display: https://drive.google.com/uc?export=view&id=1_Q2CTMe6o2RP9PGf8HPsggai9LVyVmEU
+
 
 , where
 
 ![image](https://drive.google.com/uc?export=view&id=1gcbywLx0ZEU3eqxlDtLk6o4Yxd788IiK)
+
+Please use this link if the image does not display: https://drive.google.com/uc?export=view&id=1gcbywLx0ZEU3eqxlDtLk6o4Yxd788IiK
 
 It uses the following variables:
 
